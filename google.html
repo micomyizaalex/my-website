@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:rgb(209, 205, 205);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .text{
+            margin: 130px 0px 0px 210px;
+            background-color:rgb(255, 255, 255);
+            height: 330px;
+            width: 980px;
+            padding-top:50px;
+            padding-left: 30px;
+            border-radius: 40px;
+        }
+        .input{
+            margin-left:500px;
+            margin-top: -100px;
+        }
+        .next{
+            margin-left:10px;
+            height: 40px;
+            width:80px;
+            background-color:#004daa;
+            border-radius: 20px;
+            color: white;
+            border-color:rgba(255, 255, 255, 0);
+        }
+     button.create{
+            margin-left:680px;
+            height: 40px;
+            width:140px;
+            background-color: rgba(9, 38, 117, 0);
+            border-radius: 20px;
+            color:#004daa;
+            border-color: rgba(19, 16, 16, 0);
+     }
+     .input input{
+        padding:15px 120px;
+        
+     }
+     .signin .btn{
+       font-size: 250%;
+       font-family: Arial, Helvetica, sans-serif;
+       margin-top: -5px;
+     }
+     .forget{
+        color:#004daa;
+        font-size: small;
+     }
+     .input .memo{
+        margin-top: 30px;
+        color: rgb(65, 63, 63);
+        font-size:90%;
+    }
+    .signin .pala{
+        color: rgb(65, 63, 63);
+        font-size: 90%;
+    }
+    .create:hover{
+       background-color: #d1ddeb;
+    }
+    .next:hover{
+        background-color:#1970db ;
+    }
+    a{
+        text-decoration: none;
+    }
+    img{
+        margin-left: 20px;
+        height: 60px;
+        width: 80px;
+    }
+    </style>
+  
+</head>
+<body>
+    <section class="text">
+        <img src="Capture.png" alt="">
+        <dvi class="signin">
+             <p class="btn">
+                Sign in
+            </p>
+            <p class="pala">with your Google Account. This account will be available <br>to other Google apps in the browser.</p>
+        </dvi>
+        <div class="sectiona">
+            <div class="input">
+                <input onclick= "host()" type="text" placeholder="Email or Phone">
+              <a href="#"><p class="forget">forget password?</p></a>  
+                <p class="memo">Not your computer? Use Guest mode to sign in privately. Learn <br> more about using Guest mode</p>
+            </div>
+            <button class="create">Create account</button>
+            <button class="next">Next</button>
+        </div>
+    </section>
+</body>
+</html>
